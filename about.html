@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRUTALABS - ABOUT</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500;700&family=Rubik+Mono+One&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .about-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .text-huge {
+      font-family: var(--font-heading);
+      font-size: 3rem;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+    }
+
+    .text-body {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      font-family: var(--font-meta);
+    }
+
+    .hr-thick {
+      height: 4px;
+      background: var(--color-ink);
+      margin: 4rem 0;
+      border: none;
+    }
+
+    blockquote {
+      background: var(--color-shock);
+      color: var(--color-ink);
+      padding: 2rem;
+      font-family: var(--font-hero);
+      font-size: 1.5rem;
+      margin: 4rem -2rem;
+      transform: rotate(-2deg);
+      box-shadow: 10px 10px 0 var(--color-ink);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cursor"></div>
+  <div class="page-transition">LOADING NEXT...</div>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-link">HOME</a>
+    <a href="gallery.html" class="nav-link">GALLERY</a>
+  </nav>
+
+  <main class="container">
+    <div class="about-content">
+      <h1 class="section-title">PHILOSOPHY</h1>
+
+      <p class="text-huge">
+        Brutalism in web design is a reaction against the artificial smoothness of the modern web.
+      </p>
+
+      <p class="text-body">
+        We live in an era of templates. Soft shadows, rounded corners, and polite micro-interactions have homogenized
+        the internet.
+        Brutalism rejects this. It embraces the raw materials of the web: clear structure, default fonts, and
+        high-contrast colors.
+      </p>
+
+      <blockquote>
+        "IF IT FEELS COMFORTABLE, IT'S NOT BRUTALISM."
+      </blockquote>
+
+      <hr class="hr-thick">
+
+      <h2 class="text-huge">ORIGINS</h2>
+      <p class="text-body">
+        Derived from the architectural movement of the 1950s (Beton Brut), digital brutalism focuses on honesty of
+        materials.
+        It treats the screen as a flat surface, not a window into three-dimensional reality (despite our use of fake 3D
+        for impact).
+      </p>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
